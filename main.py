@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-__author__ = 'Jerry'
+__author__ = 'Ethan'
 import datetime
 from tkinter import *
 from seckill.seckill_taobao import ChromeDrive
@@ -17,7 +17,7 @@ def run_killer(txt, txt2):
 
 def main():
     win = Tk()
-    win.title('小熊秒杀助手')
+    win.title('秒杀助手')
     width = 380
     height = 300
     screenwidth = win.winfo_screenwidth()
